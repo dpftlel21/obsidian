@@ -1,0 +1,9 @@
+.claude/
+.obsidian/plugins/
+.obsidian/workspace*.json
+.obsidian/cache/
+.trash/
+node_modules/
+*.log
+.DS_Store
+Thumbs.db

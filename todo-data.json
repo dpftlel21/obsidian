@@ -1,0 +1,65 @@
+{
+  "lists": [
+    {
+      "id": "myday",
+      "name": "나의 하루",
+      "icon": "☀️",
+      "isSystem": true
+    },
+    {
+      "id": "important",
+      "name": "중요",
+      "icon": "⭐",
+      "isSystem": true
+    },
+    {
+      "id": "planned",
+      "name": "계획된 일정",
+      "icon": "📅",
+      "isSystem": true
+    },
+    {
+      "id": "tasks",
+      "name": "할 일",
+      "icon": "🏠",
+      "isSystem": true
+    },
+    {
+      "id": "mov06slgcnij4ymkeie",
+      "name": "KD",
+      "icon": "📋",
+      "isSystem": false
+    }
+  ],
+  "tasks": [
+    {
+      "id": "mov06uc5ny013aep4bk",
+      "title": "SADAS",
+      "completed": true,
+      "important": false,
+      "myDay": false,
+      "steps": [],
+      "listId": "mov06slgcnij4ymkeie",
+      "createdAt": "2026-05-07T04:45:56.885Z",
+      "recur": {
+        "type": "yearly"
+      },
+      "completedAt": "2026-05-07T04:46:01.972Z"
+    },
+    {
+      "id": "mov06y9j6p7zdewtsx",
+      "title": "SADAS",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [],
+      "listId": "mov06slgcnij4ymkeie",
+      "createdAt": "2026-05-07T04:46:01.975Z",
+      "dueDate": "2027-05-07",
+      "recur": {
+        "type": "yearly"
+      }
+    }
+  ],
+  "groups": []
+}

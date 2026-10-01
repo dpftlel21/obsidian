@@ -1,0 +1,1778 @@
+{
+  "lists": [
+    {
+      "id": "important",
+      "name": "중요",
+      "icon": "star",
+      "isSystem": true
+    },
+    {
+      "id": "today",
+      "name": "오늘 일정",
+      "icon": "sun",
+      "isSystem": true
+    },
+    {
+      "id": "planned",
+      "name": "계획된 일정",
+      "icon": "calendar",
+      "isSystem": true
+    },
+    {
+      "id": "mow70vom0e5ga6to1zxs",
+      "name": "연간 업무",
+      "icon": "list",
+      "isSystem": false,
+      "groupId": "mov0qi4ooqkm0uhrssa",
+      "sortBy": "default"
+    },
+    {
+      "id": "mow71hc0dlu7a173rvc",
+      "name": "월간 업무",
+      "icon": "list",
+      "isSystem": false,
+      "groupId": "mov0qi4ooqkm0uhrssa"
+    },
+    {
+      "id": "mow729k4e7zgu53arvr",
+      "name": "주간 업무",
+      "icon": "list",
+      "isSystem": false,
+      "groupId": "mov0qi4ooqkm0uhrssa"
+    },
+    {
+      "id": "mow7py4107hhh2cvp9is",
+      "name": "출근 후 확인",
+      "icon": "list",
+      "isSystem": false,
+      "groupId": "mov0qi4ooqkm0uhrssa"
+    },
+    {
+      "id": "mow7qhuw84i7q1ekasf",
+      "name": "오전 업무",
+      "icon": "list",
+      "isSystem": false,
+      "groupId": "mov0qi4ooqkm0uhrssa"
+    },
+    {
+      "id": "mow7qu7f3d5nxp7s8zw",
+      "name": "오후 업무",
+      "icon": "list",
+      "isSystem": false,
+      "groupId": "mov0qi4ooqkm0uhrssa"
+    },
+    {
+      "id": "mow7r0mzfke66z609j7",
+      "name": "기타 업무",
+      "icon": "list",
+      "isSystem": false,
+      "groupId": "mov0qi4ooqkm0uhrssa"
+    },
+    {
+      "id": "mow7s07um0fsicix9ui",
+      "name": "DTG 관련 현황",
+      "icon": "list",
+      "isSystem": false,
+      "groupId": "mov0qi4ooqkm0uhrssa"
+    },
+    {
+      "id": "mow7sbkmqbuq5t9psan",
+      "name": "차량 노선 변경",
+      "icon": "list",
+      "isSystem": false,
+      "groupId": "mov0qn14sil6rmdhgr"
+    },
+    {
+      "id": "mow7sldhiu1k8prdtqh",
+      "name": "사고 관리",
+      "icon": "list",
+      "isSystem": false,
+      "groupId": "mov0qn14sil6rmdhgr"
+    },
+    {
+      "id": "mow7srvvw7re86i95v",
+      "name": "기획 관리",
+      "icon": "list",
+      "isSystem": false,
+      "groupId": "mov0qn14sil6rmdhgr"
+    },
+    {
+      "id": "mow7szsyc1hwaollpkr",
+      "name": "기타 전산 요청",
+      "icon": "list",
+      "isSystem": false,
+      "groupId": "mov0qn14sil6rmdhgr"
+    },
+    {
+      "id": "mow7t9wqbc5hkzrudjt",
+      "name": "빌드",
+      "icon": "list",
+      "isSystem": false,
+      "groupId": "mov0qwb7y4b2div920k"
+    },
+    {
+      "id": "mow7u42pcjm3ty9wh18",
+      "name": "EMK 정비",
+      "icon": "list",
+      "isSystem": false,
+      "groupId": "mov0qwb7y4b2div920k",
+      "sortBy": "default"
+    },
+    {
+      "id": "mow7ui6bvkumq32kws",
+      "name": "EMK 부품",
+      "icon": "list",
+      "isSystem": false,
+      "groupId": "mov0qwb7y4b2div920k"
+    },
+    {
+      "id": "mow7uoo9y0waq1luf0q",
+      "name": "EMK 연구소",
+      "icon": "list",
+      "isSystem": false,
+      "groupId": "mov0qwb7y4b2div920k"
+    },
+    {
+      "id": "mow7urkhs3znmf3jmv",
+      "name": "EMK 판매",
+      "icon": "list",
+      "isSystem": false,
+      "groupId": "mov0qwb7y4b2div920k"
+    },
+    {
+      "id": "mow7v0n5qo1k14xv0b",
+      "name": "NOVA DTG",
+      "icon": "list",
+      "isSystem": false,
+      "groupId": "mov0r0aq1fiuybcha7j"
+    },
+    {
+      "id": "mow7veiz8lstwf2seq4",
+      "name": "내부 개발 진행 건",
+      "icon": "list",
+      "isSystem": false,
+      "groupId": "mov0r0aq1fiuybcha7j"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "mov2lt7yvam3a6ihdeq",
+      "title": "CDT 자료 백업 10월 준비 및 이동",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [],
+      "listId": "mow70vom0e5ga6to1zxs",
+      "createdAt": "2026-05-07T05:53:34.510Z",
+      "dueDate": "2026-10-13",
+      "recur": {
+        "type": "yearly"
+      }
+    },
+    {
+      "id": "mov2n3hcqrpc8epshv",
+      "title": "73서버 (od 업로드 서버) 파일 비우기",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [],
+      "listId": "mow71hc0dlu7a173rvc",
+      "createdAt": "2026-05-07T05:54:34.464Z",
+      "dueDate": "2026-06-01",
+      "recur": {
+        "type": "monthly"
+      }
+    },
+    {
+      "id": "mov2njhvd1mbwwkdkkv",
+      "title": "영업소 용량 정리",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [],
+      "listId": "mow71hc0dlu7a173rvc",
+      "createdAt": "2026-05-07T05:54:55.219Z",
+      "dueDate": "2026-06-05",
+      "recur": {
+        "type": "monthly"
+      }
+    },
+    {
+      "id": "mov2nsserclq6926e1",
+      "title": "영업소별 전차량 갱신",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [],
+      "listId": "mow71hc0dlu7a173rvc",
+      "createdAt": "2026-05-07T05:55:07.262Z",
+      "dueDate": "2026-05-17",
+      "recur": {
+        "type": "custom",
+        "unit": "month",
+        "interval": 2,
+        "startDate": "2026-05-07"
+      },
+      "attachments": [
+        {
+          "name": "3.무선데이터서버 차량등록 최신화(20181221).sql",
+          "path": "todo-attachments/mov2nsserclq6926e1/3.무선데이터서버 차량등록 최신화(20181221).sql"
+        }
+      ]
+    },
+    {
+      "id": "mov2p3lacgo7lhd9iuf",
+      "title": "Z 드라이브 CDT_BACK_UP 폴더 1개월치 이동",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov2po0yenggzmcoo7a",
+          "title": "예) 24년12월엔 23년 11월까지 잘라내기 후 삭제",
+          "completed": false
+        }
+      ],
+      "listId": "mow71hc0dlu7a173rvc",
+      "createdAt": "2026-05-07T05:56:07.918Z",
+      "dueDate": "2026-05-13",
+      "recur": {
+        "type": "monthly"
+      }
+    },
+    {
+      "id": "mov3plz81rpwwehziwb",
+      "title": "ERP 주간 계획 수립",
+      "completed": true,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov3pvv0io06nlzeipb",
+          "title": "31. EB 데이터, OD 데이터, 스마트카드 업로드",
+          "completed": false
+        },
+        {
+          "id": "mov3py887pg73stovjo",
+          "title": "32. 자바 스프링 웹 개발 - ERP 채팅(개인 및 그룹) 설계 및 구현",
+          "completed": false
+        },
+        {
+          "id": "mov3q5jrdq71jmsjbhg",
+          "title": "8. DTG 수신관리 (DTG서버, 영업소DTG PC)",
+          "completed": false
+        }
+      ],
+      "listId": "mow729k4e7zgu53arvr",
+      "createdAt": "2026-05-07T06:24:31.364Z",
+      "dueDate": "2026-05-08",
+      "recur": {
+        "type": "weekly"
+      },
+      "completedAt": "2026-05-07T23:05:15.568Z"
+    },
+    {
+      "id": "mov3qr6vsh0alttsb3b",
+      "title": "한스 네트워크 업체",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov3qu2lpkmqxqvo1k",
+          "title": "이양현 기술연구소/차장  010 3838 1211",
+          "completed": false
+        }
+      ],
+      "listId": "mow7v0n5qo1k14xv0b",
+      "createdAt": "2026-05-07T06:25:24.775Z"
+    },
+    {
+      "id": "mov3xx3s8n4h2rdnzf",
+      "title": "토드 백업",
+      "completed": true,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov3y7hgnbhkr0xzra",
+          "title": "1.패키지, 패키지바디",
+          "completed": true
+        },
+        {
+          "id": "mov3z2efq8rtprt8abg",
+          "title": "2.프로시저",
+          "completed": true
+        },
+        {
+          "id": "mov3z3xoazyk3xitxep",
+          "title": "3.기타 - 뷰, 함수, 잡, 트리거",
+          "completed": true
+        }
+      ],
+      "listId": "mow729k4e7zgu53arvr",
+      "createdAt": "2026-05-07T06:30:59.032Z",
+      "dueDate": "2026-05-08",
+      "recur": {
+        "type": "weekly"
+      },
+      "completedAt": "2026-05-07T23:54:15.647Z"
+    },
+    {
+      "id": "mov3zlci37kl88udths",
+      "title": "원격서버 용량 및 프로그램 가동 확인",
+      "completed": true,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov3znegp9mvqh9o46",
+          "title": "121.161.182.130 1본부, 6본부",
+          "completed": false
+        },
+        {
+          "id": "mov3zpg74yc0dorjzqp",
+          "title": "121.161.182.131 2본부, 5본부",
+          "completed": false
+        },
+        {
+          "id": "mov3zrrud5faz90uelr",
+          "title": "121.161.182.132 시외본부",
+          "completed": false
+        },
+        {
+          "id": "mov3ztdcfw6fdqxkzvc",
+          "title": "121.161.182.133 3본부",
+          "completed": false
+        },
+        {
+          "id": "mov3zv86xlpif0ytr6",
+          "title": "221.146.5.54 ETAS 경기,대원 업로드",
+          "completed": false
+        },
+        {
+          "id": "mov3zxqeqsdz3ldfgfi",
+          "title": "221.146.5.55 SPRING 프로젝트",
+          "completed": false
+        },
+        {
+          "id": "mov3zzx9h1asidapolt",
+          "title": "221.146.5.73 OD 데이터",
+          "completed": false
+        }
+      ],
+      "listId": "mow7py4107hhh2cvp9is",
+      "createdAt": "2026-05-07T06:32:17.106Z",
+      "dueDate": "2026-05-08",
+      "recur": {
+        "type": "weekday",
+        "weekdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "completedAt": "2026-05-07T23:20:10.632Z"
+    },
+    {
+      "id": "mov40raz2cnlp2bg1e4",
+      "title": "이클립스 SYNC UPDATE",
+      "completed": true,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov40xpqi35en3w9vr8",
+          "title": "REFRESH / CLEANUP",
+          "completed": false
+        },
+        {
+          "id": "mov40zbdhktilgjn4gv",
+          "title": "SYNCHRONIZE WITH REPOSITORY",
+          "completed": false
+        }
+      ],
+      "listId": "mow7py4107hhh2cvp9is",
+      "createdAt": "2026-05-07T06:33:11.483Z",
+      "dueDate": "2026-05-08",
+      "recur": {
+        "type": "weekday",
+        "weekdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "note": "\n",
+      "completedAt": "2026-05-07T22:55:09.378Z"
+    },
+    {
+      "id": "mov41k6v4ugv00dn1f3",
+      "title": "오전 데이터 업로드",
+      "completed": true,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov41u70vu6gy8qt4uc",
+          "title": "1. EB 데이터",
+          "completed": true
+        },
+        {
+          "id": "mov41vxod1nyugun6kw",
+          "title": "2. 스마트카드 승하차",
+          "completed": true
+        },
+        {
+          "id": "mov41xy67671it6lwz",
+          "title": "3. OD 데이터",
+          "completed": true
+        }
+      ],
+      "listId": "mow7qhuw84i7q1ekasf",
+      "createdAt": "2026-05-07T06:33:48.919Z",
+      "dueDate": "2026-05-08",
+      "recur": {
+        "type": "weekday",
+        "weekdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "completedAt": "2026-05-08T02:13:26.986Z"
+    },
+    {
+      "id": "mov429npbewpop61n6",
+      "title": "헤아림(하드웨어 소프트웨어 업체)",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov42dkgtnou7lauj7",
+          "title": "임성창 이사님  010-5656-7090",
+          "completed": false
+        }
+      ],
+      "listId": "mow7r0mzfke66z609j7",
+      "createdAt": "2026-05-07T06:34:21.925Z"
+    },
+    {
+      "id": "mov42i2c2ori5lytsgs",
+      "title": "사이버브렌치",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov42l0fqmylfrfu2yg",
+          "title": "https://113366.com/",
+          "completed": false
+        },
+        {
+          "id": "mov42ox8pnlego45e99",
+          "title": "6글자 접속정보 받기",
+          "completed": false
+        }
+      ],
+      "listId": "mow7r0mzfke66z609j7",
+      "createdAt": "2026-05-07T06:34:32.820Z"
+    },
+    {
+      "id": "mov42tb3hl5yt3x3bin",
+      "title": "스마트카드 비밀번호 변경",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov42wa0g8fl0xmpuok",
+          "title": "심재훈 과장",
+          "completed": false
+        },
+        {
+          "id": "mov42xyw88351flid57",
+          "title": "2026대원여객 2026대원교통",
+          "completed": false
+        }
+      ],
+      "listId": "mow7r0mzfke66z609j7",
+      "createdAt": "2026-05-07T06:34:47.391Z"
+    },
+    {
+      "id": "mov433bys5b0vnox8b8",
+      "title": "중앙 대회의실 비밀번호 6111",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [],
+      "listId": "mow7r0mzfke66z609j7",
+      "createdAt": "2026-05-07T06:35:00.382Z"
+    },
+    {
+      "id": "mov437fuy630g5m4qrg",
+      "title": "070-4227-7777  0380",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [],
+      "listId": "mow7r0mzfke66z609j7",
+      "createdAt": "2026-05-07T06:35:05.706Z"
+    },
+    {
+      "id": "mov43bgwpjv83wbcw7",
+      "title": "방문자 주차증 발급",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov43gzqf8qm53glj2b",
+          "title": "http://121.161.229.226/Login.php",
+          "completed": false
+        },
+        {
+          "id": "mov43j4pa3p3r07p06",
+          "title": "kdbuscm",
+          "completed": false
+        },
+        {
+          "id": "mov43l9di3vwtc2c8z",
+          "title": "kd1234",
+          "completed": false
+        }
+      ],
+      "listId": "mow7r0mzfke66z609j7",
+      "createdAt": "2026-05-07T06:35:10.928Z"
+    },
+    {
+      "id": "mov44f65245jx6k5yj6",
+      "title": "ETAS업로드관련",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov44ifm6yn836n55n",
+          "title": "221.146.5.54 경기고속,대원고속",
+          "completed": false
+        },
+        {
+          "id": "mov44k3b3xprs23altd",
+          "title": "221.146.5.56 그외법인",
+          "completed": false
+        }
+      ],
+      "listId": "mow7r0mzfke66z609j7",
+      "createdAt": "2026-05-07T06:36:02.381Z"
+    },
+    {
+      "id": "mov44osqj27wehfk8qm",
+      "title": "빌드돌릴때",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov44tlyeting77cx1t",
+          "title": "https://221.146.5.36:30000/",
+          "completed": false
+        },
+        {
+          "id": "mov44vdjcqhvc6c6bi8",
+          "title": "admin",
+          "completed": false
+        },
+        {
+          "id": "mov44y0j64gxhiwp25x",
+          "title": "accordionadmin",
+          "completed": false
+        },
+        {
+          "id": "mov45005fptxiko4qy",
+          "title": "Get Source -> Build a Ant project -> Docker Build -> Docker Push",
+          "completed": false
+        }
+      ],
+      "listId": "mow7r0mzfke66z609j7",
+      "createdAt": "2026-05-07T06:36:14.858Z"
+    },
+    {
+      "id": "mov47mwo8yv4ehgsvl6",
+      "title": "서버 정보",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [],
+      "listId": "mow7s07um0fsicix9ui",
+      "createdAt": "2026-05-07T06:38:32.376Z",
+      "note": "4100200,경기고속\n4100300,대원고속 \n4100400,대원버스\n4100500,대원운수\n4101700,명진여객\n4104000,평안운수\n4104600,경기여객\n4105900,진명여객\n4107700,경기버스\n4107800,경기운수\n4107900,경기상운\n4108600,화성여객\n\n\n원격서버g\n\n1본부, 6본부 : 121.161.182.130\n\n2본부, 5본부 : 121.161.182.131\n\n시외본부 : 121.161.182.132\n\n3본부 : 121.161.182.133"
+    },
+    {
+      "id": "mov47xnj2a83ucyc92j",
+      "title": "조영",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov47zrusopg456rcq",
+          "title": "010 7457 5785 원준성 책임연구원",
+          "completed": false
+        },
+        {
+          "id": "mov482k2uhgj6tvkcgn",
+          "title": "02-2212-5785",
+          "completed": false
+        }
+      ],
+      "listId": "mow7s07um0fsicix9ui",
+      "createdAt": "2026-05-07T06:38:46.303Z"
+    },
+    {
+      "id": "mov4ami790j5n53dsy",
+      "title": "1.컴포넌트 간격",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov4ar31fwynaqj69e4",
+          "title": "맨처음 간격 30 - STATIC WIDTH 4글자 52 3글자 39 2글자 26 1글자 13 - 컴포넌트 LEFT 20  - ~ STATIC OR COMPONENT LEFT 5 - 다음 컴포넌트 LEFT 30",
+          "completed": false
+        }
+      ],
+      "listId": "mow7t9wqbc5hkzrudjt",
+      "createdAt": "2026-05-07T06:40:51.823Z"
+    },
+    {
+      "id": "mov4ax96gxmtkr77uhr",
+      "title": "2.빌드 http://221.146.5.77:9090/jenkins",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov4azg0rvc4rnozadl",
+          "title": "kdits_emk",
+          "completed": false
+        },
+        {
+          "id": "mov4b151e5bkuzmf01r",
+          "title": "wsc.8166",
+          "completed": false
+        },
+        {
+          "id": "mov4b2lm88oqzu37de6",
+          "title": "프로젝트 선택후 지금 빌드",
+          "completed": false
+        }
+      ],
+      "listId": "mow7t9wqbc5hkzrudjt",
+      "createdAt": "2026-05-07T06:41:05.754Z"
+    },
+    {
+      "id": "mov4b6vcrgy13bo1g9g",
+      "title": "3.넥사크로 개발라이센스",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov4b98vot7yi5eouys",
+          "title": "kddev1",
+          "completed": false
+        },
+        {
+          "id": "mov4bb928y11ku71a0i",
+          "title": "kddev.8166",
+          "completed": false
+        },
+        {
+          "id": "mov4bd035flvnod88ne",
+          "title": "https://support.tobesoft.co.kr/Support/?menu=home",
+          "completed": false
+        },
+        {
+          "id": "mov4ben8k8d16o6nlc",
+          "title": "투비소프트 사이트에서 개발라이센스 신청하여 메일로 받고",
+          "completed": false
+        },
+        {
+          "id": "mov4bg368rx5wq62n0w",
+          "title": "C:\\UXBooster\\workspace\\EMKIIS\\src\\main\\resources",
+          "completed": false
+        },
+        {
+          "id": "mov4bhpykeaxkt7vouj",
+          "title": "이 경로에 덮어 씌우고 테스트 후 커밋",
+          "completed": false
+        }
+      ],
+      "listId": "mow7t9wqbc5hkzrudjt",
+      "createdAt": "2026-05-07T06:41:18.216Z"
+    },
+    {
+      "id": "mov4bla1j748uvvdgak",
+      "title": "4.UBIREPORT 경로",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov4bnc6azvsjimvl3v",
+          "title": "C:\\UXBooster\\workspace\\EMKIIS\\src\\main\\webapp\\ubi4\\work",
+          "completed": false
+        },
+        {
+          "id": "mov4bp1cs6vb9x3y6rs",
+          "title": "유비리포트 라이센스",
+          "completed": false
+        },
+        {
+          "id": "mov4bqx0ikv7wjmhpn",
+          "title": "https://www.ubireport.com/support/download.jsp",
+          "completed": false
+        },
+        {
+          "id": "mov4bsf5nvsudifsuwe",
+          "title": "회원가입 필수",
+          "completed": false
+        },
+        {
+          "id": "mov4bu04r9s6vulcm4c",
+          "title": "고객지원 > 다운로드 선택하면 라이센스 받을 수 있음",
+          "completed": false
+        },
+        {
+          "id": "mov4bvk196vtp0lt9si",
+          "title": "라이센스는 1달 짜리만 가능",
+          "completed": false
+        },
+        {
+          "id": "mov4bx6fjhuy4wcwlsm",
+          "title": "경로",
+          "completed": false
+        },
+        {
+          "id": "mov4bysjjrshwgoiv6k",
+          "title": "C:\\Users\\사용자계정\\AppData\\Roaming\\UbiDecision\\UbiReport4.0\\UbiDesigner\\license",
+          "completed": false
+        },
+        {
+          "id": "mov4c0tjr665z55yjm",
+          "title": "로컬 라이센스",
+          "completed": false
+        },
+        {
+          "id": "mov4c47f7l52jv2wbws",
+          "title": "경로",
+          "completed": false
+        },
+        {
+          "id": "mov4c695tkqrzvedm3",
+          "title": "C:\\UXBooster\\tools\\UbiService\\license",
+          "completed": false
+        }
+      ],
+      "listId": "mow7t9wqbc5hkzrudjt",
+      "createdAt": "2026-05-07T06:41:36.889Z"
+    },
+    {
+      "id": "mov4caiftldkxmshweo",
+      "title": "5.마이플렛폼 DECODE 언어",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov4ccen6zk8jyc067x",
+          "title": "decode(EMP_DUP_YN,'N','white','red')",
+          "completed": false
+        },
+        {
+          "id": "mov4cdsnpgex7t46yf8",
+          "title": "expr:IIF(DT_01<10000 AND CORM_NM=='경기고속','red','white')",
+          "completed": false
+        },
+        {
+          "id": "mov4cfhhvvhym0kgiae",
+          "title": "IIF(PC_01<50,'red', iif(PC_01<80,'lightpink'))",
+          "completed": false
+        },
+        {
+          "id": "mov4ch0v3e02snzy7y6",
+          "title": "decode(CORP_NM,'경기고속',IIF(DT_01<500000,'red','white'),'default')",
+          "completed": false
+        },
+        {
+          "id": "mov4ciya31yv4phqjy9",
+          "title": "rowType https://www.playnexacro.com/#show:learn:4603",
+          "completed": false
+        }
+      ],
+      "listId": "mow7t9wqbc5hkzrudjt",
+      "createdAt": "2026-05-07T06:42:09.591Z",
+      "note": "\n"
+    },
+    {
+      "id": "mov4cooh9e6je3p1vr4",
+      "title": "6.이미지경로",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov4cqywpigpis6oorq",
+          "title": "C:\\UXBooster\\workspace\\EMKIIS\\nexacro\\_resource_\\_theme_\\UXBooster\\images",
+          "completed": false
+        }
+      ],
+      "listId": "mow7t9wqbc5hkzrudjt",
+      "createdAt": "2026-05-07T06:42:27.953Z"
+    },
+    {
+      "id": "mov4ddckiqrb7bx6z0l",
+      "title": "원격프로그램 자체 호스팅 및 구축",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov4dfyna5bpi02f7gc",
+          "title": "220.117.253.112:22022",
+          "completed": false
+        },
+        {
+          "id": "mov4dhic4abojmv8wnl",
+          "title": "sysadmin",
+          "completed": false
+        },
+        {
+          "id": "mov4dirxuucxcq7k06p",
+          "title": "san.8166",
+          "completed": false
+        },
+        {
+          "id": "mov4dke86g9zb3bv3qc",
+          "title": "$ su -",
+          "completed": false
+        },
+        {
+          "id": "mov4dm4uhw0rw4063j",
+          "title": "1",
+          "completed": false
+        }
+      ],
+      "listId": "mow7veiz8lstwf2seq4",
+      "createdAt": "2026-05-07T06:42:59.924Z",
+      "note": "curl -X POST http://localhost:18080/api/dtg-send-broadcast\n\n\ndocker exec rustdesk-api-server-pro sh -c \"netstat -tn | grep 18082\"\n"
+    },
+    {
+      "id": "mov4iij0vz6x2hl7x8",
+      "title": "차량 증차/대폐차 협조전 나오면 해당 영업소에 전산요청하라고 알림",
+      "completed": false,
+      "important": true,
+      "myDay": false,
+      "steps": [],
+      "listId": "tasks",
+      "createdAt": "2026-05-07T06:46:59.916Z"
+    },
+    {
+      "id": "mov6ydhkjwcnnz8mr3",
+      "title": "ETAS 자동 업로드",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov6yt5070i8swiw84w",
+          "title": "ETAS 클라이언트 CLONE",
+          "completed": false
+        }
+      ],
+      "listId": "mow7veiz8lstwf2seq4",
+      "createdAt": "2026-05-07T07:55:19.112Z"
+    },
+    {
+      "id": "mov6z5s72gh8o0wy83q",
+      "title": "지정 서비스센터 관리 화면 개발",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov6zgonrdkl7qw0ef7",
+          "title": "담당자 관리 / 도장 등록",
+          "completed": false
+        }
+      ],
+      "listId": "mow7u42pcjm3ty9wh18",
+      "createdAt": "2026-05-07T07:55:55.784Z"
+    },
+    {
+      "id": "mov6zl6z6mctlxv13ff",
+      "title": "Q&A게시판 화면 개발",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mov6zsajxj358j01n4",
+          "title": "메인 화면 수정 포함",
+          "completed": false
+        }
+      ],
+      "listId": "mow7u42pcjm3ty9wh18",
+      "createdAt": "2026-05-07T07:56:15.755Z"
+    },
+    {
+      "id": "mov70ffeabt2l5yz2g6",
+      "title": "PC 자산등록 안내",
+      "completed": true,
+      "important": false,
+      "myDay": false,
+      "steps": [],
+      "listId": "planned",
+      "createdAt": "2026-05-07T07:56:54.938Z",
+      "completedAt": "2026-05-10T23:51:18.700Z"
+    },
+    {
+      "id": "mov71uvkjzsl6boftk",
+      "title": "PC자산 관리 등록 안내 전화",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [],
+      "listId": "today",
+      "createdAt": "2026-05-07T07:58:01.616Z",
+      "dueDate": "2026-05-12",
+      "note": "안녕하십니까 KD 전산실 사원 이규동입니다!\n\n통화로 안내해드렸던 원격프로그램 관련하여 \n\nERP 팝업으로 확인하시는 방법 외에도\n\nhttps://220.117.253.112.nip.io:8443/download\n\n위 링크를 통해 설치/가이드를 확인하실수있습니다. \n\n팀내에 PC 전부 설치 후 PC등록 과정 까지 진행될 수 있도록 전파 부탁드리겠습니다. 감사합니다!\n\n\n\n안녕하십니까 KD 전산실 사원 이규동입니다!\n\n통화로 안내해드렸던 원격프로그램 관련하여 \n\nERP 팝업으로 확인하시는 방법 외에도\n\nhttps://220.117.253.112.nip.io:8443/download\n\n위 링크를 통해 설치/가이드를 확인하실수있습니다. \n\n본부내에 PC 전부 설치 후 PC등록 과정까지 될 수 있도록 전파 부탁드리겠습니다. 감사합니다!",
+      "attachments": [
+        {
+          "name": "자산관리등록안내현황.xlsx",
+          "path": "todo-attachments/mov71uvkjzsl6boftk/자산관리등록안내현황.xlsx"
+        }
+      ]
+    },
+    {
+      "id": "mov746nnlt1qssgcjxc",
+      "title": "NOVA DTG - 데이터 업로드 테스트",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [],
+      "listId": "mow7v0n5qo1k14xv0b",
+      "createdAt": "2026-05-07T07:59:50.195Z",
+      "dueDate": "2026-05-12"
+    },
+    {
+      "id": "mov74te053rzgypiqx8",
+      "title": "차량부대비 결재 인쇄 양식 폼 개발 및 부대비 정산화면 개발",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [],
+      "listId": "mow7u42pcjm3ty9wh18",
+      "createdAt": "2026-05-07T08:00:19.656Z",
+      "dueDate": "2026-05-13"
+    },
+    {
+      "id": "mow33kobqz7ijcvjo9o",
+      "title": "이클립스 SYNC UPDATE",
+      "completed": true,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mow33kob6fgl3vqg3yv",
+          "title": "REFRESH / CLEANUP",
+          "completed": false
+        },
+        {
+          "id": "mow33kob2wmyuvhs3k5",
+          "title": "SYNCHRONIZE WITH REPOSITORY",
+          "completed": false
+        }
+      ],
+      "listId": "mow7py4107hhh2cvp9is",
+      "createdAt": "2026-05-07T22:55:09.419Z",
+      "dueDate": "2026-05-11",
+      "recur": {
+        "type": "weekday",
+        "weekdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "note": "\n",
+      "completedAt": "2026-05-10T22:49:05.621Z"
+    },
+    {
+      "id": "mow3gkeadhuzh5xj9f",
+      "title": "ERP 주간 계획 수립",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mow3gkea753i3ngb3i8",
+          "title": "31. EB 데이터, OD 데이터, 스마트카드 업로드",
+          "completed": false
+        },
+        {
+          "id": "mow3gkealz4m7bf6u5",
+          "title": "32. 자바 스프링 웹 개발 - ERP 채팅(개인 및 그룹) 설계 및 구현",
+          "completed": false
+        },
+        {
+          "id": "mow3gkeadk61xif35j4",
+          "title": "8. DTG 수신관리 (DTG서버, 영업소DTG PC)",
+          "completed": false
+        }
+      ],
+      "listId": "mow729k4e7zgu53arvr",
+      "createdAt": "2026-05-07T23:05:15.586Z",
+      "dueDate": "2026-05-15",
+      "recur": {
+        "type": "weekly"
+      }
+    },
+    {
+      "id": "mow3zr1exd10wopk13a",
+      "title": "원격서버 용량 및 프로그램 가동 확인",
+      "completed": true,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mow3zr1elkgcxkdqe2",
+          "title": "121.161.182.130 1본부, 6본부",
+          "completed": false
+        },
+        {
+          "id": "mow3zr1e6d3vrgy4xyu",
+          "title": "121.161.182.131 2본부, 5본부",
+          "completed": false
+        },
+        {
+          "id": "mow3zr1e808b8439co7",
+          "title": "121.161.182.132 시외본부",
+          "completed": false
+        },
+        {
+          "id": "mow3zr1eem9ejg8xqs",
+          "title": "121.161.182.133 3본부",
+          "completed": false
+        },
+        {
+          "id": "mow3zr1e7n529h09h6n",
+          "title": "221.146.5.54 ETAS 경기,대원 업로드",
+          "completed": false
+        },
+        {
+          "id": "mow3zr1evmbc8uswxc",
+          "title": "221.146.5.55 SPRING 프로젝트",
+          "completed": false
+        },
+        {
+          "id": "mow3zr1e56zzby3qy0d",
+          "title": "221.146.5.73 OD 데이터",
+          "completed": false
+        }
+      ],
+      "listId": "mow7py4107hhh2cvp9is",
+      "createdAt": "2026-05-07T23:20:10.658Z",
+      "dueDate": "2026-05-11",
+      "recur": {
+        "type": "weekday",
+        "weekdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "completedAt": "2026-05-10T22:52:11.748Z"
+    },
+    {
+      "id": "mow42p5kj8oi1j8zj9o",
+      "title": "202605-00139",
+      "completed": true,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mow42u3fkjuseh89ztj",
+          "title": "경기77바1247  2026 / 04 / 09 ~ 2026 / 04 / 20  8109 노선의 사업장을 경기고속 -> 경기고속 경기도 공공버스 부서를 분당 -> 구미동  으로 변경요청드립니다",
+          "completed": false
+        }
+      ],
+      "listId": "mow7sbkmqbuq5t9psan",
+      "createdAt": "2026-05-07T23:22:28.184Z",
+      "dueDate": "2026-05-08",
+      "note": "경기77바1247  2026 / 04 / 09 ~ 2026 / 04 / 20  8109 노선의 사업장을 경기고속 -> 경기고속 경기도 공공버스 부서를 분당 -> 구미동  으로 변경요청드립니다",
+      "completedAt": "2026-05-07T23:22:51.476Z"
+    },
+    {
+      "id": "mow57kzbfurkkv09qmj",
+      "title": "토드 백업",
+      "completed": false,
+      "important": false,
+      "myDay": false,
+      "steps": [
+        {
+          "id": "mow57kzb9q1tgwr6did",
+          "title": "1.패키지, 패키지바디",
+          "completed": false
+        },
+        {
+          "id": "mow57kzbh3l5oj4x5dq",
+          "title": "2.프로시저",
+          "completed": false
+        },
+        {
+          "id": "mow57kzb805k08qz2qh",
+          "title": "3.기타 - 뷰, 함수, 잡, 트리거",
+          "completed": false
+        }
+      ],
+      "listId": "mow729k4e7zgu53arvr",
+      "createdAt": "2026-05-07T23:54:15.671Z",
+      "dueDate": "2026-05-15",
+      "recur": {
+        "type": "weekly"
+      }
+    },
+    {
+      "id": "mow7jxf3y74mnonyt9g",
+      "title": "노바 현황 쿼리 수정",
+      "completed": false,
+      "important": false,
+      "steps": [],
+      "listId": "mow7v0n5qo1k14xv0b",
+      "createdAt": "2026-05-08T00:59:50.895Z",
+      "note": "                          AND t.CD_I_LINE IN (\n                                SELECT CD_LINE\n                                  FROM CAR_HIS c\n                                WHERE c.CD_STATUS_CAR IN ('C','D','F')\n                                  AND c.DIV_SVC NOT IN ('Q','Z')\n                                  AND PKG_SMS.FNC_CAR_CD_FUEL(c.DT_S, c.NO_CAR, 1) = 'D'\n                                  AND c.CD_LINE NOT LIKE '%시내예비%'\n                          )"
+    },
+    {
+      "id": "mow96gpn55qv1e4shmu",
+      "title": "차량접수",
+      "completed": false,
+      "important": false,
+      "steps": [
+        {
+          "id": "mow9jpccmn61gpn1o0q",
+          "title": "부품 보중 구분 코드화 -> 내부 확립 후 전달 예정",
+          "completed": false
+        },
+        {
+          "id": "mow9kq0cw61j0rgzivk",
+          "title": "기존 데이터들에 대해서도 (AS, 보증 등) 정의 및 정리",
+          "completed": false
+        }
+      ],
+      "listId": "mow7u42pcjm3ty9wh18",
+      "createdAt": "2026-05-08T01:45:21.947Z"
+    },
+    {
+      "id": "mowa6kx1bk936uh4fgr",
+      "title": "오전 데이터 업로드",
+      "completed": true,
+      "important": false,
+      "steps": [
+        {
+          "id": "mowa6kx145qa5b0cncr",
+          "title": "1. EB 데이터",
+          "completed": true
+        },
+        {
+          "id": "mowa6kx10zkqnqlluui",
+          "title": "2. 스마트카드 승하차",
+          "completed": true
+        },
+        {
+          "id": "mowa6kx1d3n59pun6y",
+          "title": "3. OD 데이터",
+          "completed": true
+        }
+      ],
+      "listId": "mow7qhuw84i7q1ekasf",
+      "createdAt": "2026-05-08T02:13:27.013Z",
+      "dueDate": "2026-05-11",
+      "recur": {
+        "type": "weekday",
+        "weekdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "completedAt": "2026-05-11T02:09:08.589Z"
+    },
+    {
+      "id": "mowi70b0p4lshxlbx0g",
+      "title": "202605-00152",
+      "completed": true,
+      "important": false,
+      "steps": [],
+      "listId": "mow7sbkmqbuq5t9psan",
+      "createdAt": "2026-05-08T05:57:43.884Z",
+      "dueDate": "2026-05-08",
+      "note": "경기77바 2814\n2026 / 05 / 07 ~ : 광주공영\n\n경기76바 8143\n2026 / 05 / 07 ~ : G1300번\n\n으로 차량노선변경 요청드립니다",
+      "completedAt": "2026-05-08T05:58:22.951Z"
+    },
+    {
+      "id": "mowl5zl3igmfz25wez",
+      "title": "dd",
+      "completed": false,
+      "important": false,
+      "steps": [],
+      "listId": "today",
+      "createdAt": "2026-05-08T07:20:55.143Z"
+    },
+    {
+      "id": "mowldclnbxwiyqcjsbn",
+      "title": "202605-00156",
+      "completed": true,
+      "important": false,
+      "steps": [],
+      "listId": "mow7sbkmqbuq5t9psan",
+      "createdAt": "2026-05-08T07:26:38.603Z",
+      "dueDate": "2026-05-08",
+      "note": "경기77바1247\n\n2026 / 04 / 03 ~ 2026 / 04 / 04 : 8109번\n\n간선급행, 경기도 공공버스\n\n* 에너지사업팀 요청\n\n으로 노선변경요청드립니다.",
+      "completedAt": "2026-05-08T07:29:01.638Z"
+    },
+    {
+      "id": "mp0d7c00hh8y86f4bfq",
+      "title": "이클립스 SYNC UPDATE",
+      "completed": true,
+      "important": false,
+      "steps": [
+        {
+          "id": "mp0d7c00qxsznpi4fmo",
+          "title": "REFRESH / CLEANUP",
+          "completed": false
+        },
+        {
+          "id": "mp0d7c00q93szdkdgj8",
+          "title": "SYNCHRONIZE WITH REPOSITORY",
+          "completed": false
+        }
+      ],
+      "listId": "mow7py4107hhh2cvp9is",
+      "createdAt": "2026-05-10T22:49:05.664Z",
+      "dueDate": "2026-05-12",
+      "recur": {
+        "type": "weekday",
+        "weekdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "note": "\n",
+      "completedAt": "2026-05-11T22:50:58.745Z"
+    },
+    {
+      "id": "mp0dbbll86c2ac7iuv2",
+      "title": "원격서버 용량 및 프로그램 가동 확인",
+      "completed": true,
+      "important": false,
+      "steps": [
+        {
+          "id": "mp0dbbllqigztqdjq29",
+          "title": "121.161.182.130 1본부, 6본부",
+          "completed": false
+        },
+        {
+          "id": "mp0dbblls6k8h4krzm",
+          "title": "121.161.182.131 2본부, 5본부",
+          "completed": false
+        },
+        {
+          "id": "mp0dbbll26azra0td6j",
+          "title": "121.161.182.132 시외본부",
+          "completed": false
+        },
+        {
+          "id": "mp0dbbllyfrnn7zvbqd",
+          "title": "121.161.182.133 3본부",
+          "completed": false
+        },
+        {
+          "id": "mp0dbblli2y6t2vbqyp",
+          "title": "221.146.5.54 ETAS 경기,대원 업로드",
+          "completed": false
+        },
+        {
+          "id": "mp0dbbllluqis5pkvzd",
+          "title": "221.146.5.55 SPRING 프로젝트",
+          "completed": false
+        },
+        {
+          "id": "mp0dbbll1ohfmgtebsc",
+          "title": "221.146.5.73 OD 데이터",
+          "completed": false
+        }
+      ],
+      "listId": "mow7py4107hhh2cvp9is",
+      "createdAt": "2026-05-10T22:52:11.769Z",
+      "dueDate": "2026-05-12",
+      "recur": {
+        "type": "weekday",
+        "weekdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "completedAt": "2026-05-11T22:55:49.136Z"
+    },
+    {
+      "id": "mp0kclj5uickfpx4l7n",
+      "title": "오전 데이터 업로드",
+      "completed": true,
+      "important": false,
+      "steps": [
+        {
+          "id": "mp0kclj5vrv3r9b1n4",
+          "title": "1. EB 데이터",
+          "completed": true
+        },
+        {
+          "id": "mp0kclj5qnytijcn",
+          "title": "2. 스마트카드 승하차",
+          "completed": true
+        },
+        {
+          "id": "mp0kclj5k0qkvyqkyk9",
+          "title": "3. OD 데이터",
+          "completed": true
+        }
+      ],
+      "listId": "mow7qhuw84i7q1ekasf",
+      "createdAt": "2026-05-11T02:09:08.609Z",
+      "dueDate": "2026-05-12",
+      "recur": {
+        "type": "weekday",
+        "weekdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "completedAt": "2026-05-12T01:59:55.523Z"
+    },
+    {
+      "id": "mp0knslwvrqmsub6a8g",
+      "title": "202605-00166",
+      "completed": true,
+      "important": false,
+      "steps": [],
+      "listId": "mow7sbkmqbuq5t9psan",
+      "createdAt": "2026-05-11T02:17:50.996Z",
+      "dueDate": "2026-05-11",
+      "note": "경기70아6223\n경기70아6226\n경기72바1319\n경기72바1749\n경기72바1749\n경기74아2935\n경기77바1508\n경기77바3416\n경기77아1005\n경기77아1085\n경기78사7749\n경기77바3260\n경기77바3266\n",
+      "completedAt": "2026-05-11T02:49:59.805Z"
+    },
+    {
+      "id": "mp0mrauj2tezvk9dc99",
+      "title": "PC자산 관리 등록 안내 전화 (오늘 일정)",
+      "completed": false,
+      "important": false,
+      "steps": [],
+      "listId": "mow70vom0e5ga6to1zxs",
+      "createdAt": "2026-05-11T03:16:33.835Z",
+      "sourceFile": "Daily Notes/2026-05-11.md",
+      "sourceLine": 1
+    },
+    {
+      "id": "mp0qkonke7mq7u0is77",
+      "title": "202605-00173",
+      "completed": true,
+      "important": false,
+      "steps": [],
+      "listId": "mow7sbkmqbuq5t9psan",
+      "createdAt": "2026-05-11T05:03:23.600Z",
+      "dueDate": "2026-05-11",
+      "note": "경기77비1367\n\n2026-05-06 ~ 2026-05-06 : M2316\n\n2026-05-07 ~ : M2323\n\n으로 차량 노선변경요청드립니다.",
+      "completedAt": "2026-05-11T05:05:33.744Z"
+    },
+    {
+      "id": "mp0r8kx2srgy9du1rx8",
+      "title": "민락동 -> PC 신규 세팅 전 파일 옮긴 후 세팅",
+      "completed": false,
+      "important": false,
+      "steps": [],
+      "listId": "mow7s07um0fsicix9ui",
+      "createdAt": "2026-05-11T05:21:58.502Z",
+      "dueDate": "2026-05-13"
+    },
+    {
+      "id": "mp0s2rkawk6eeaz5u5",
+      "title": "202605-00174",
+      "completed": true,
+      "important": false,
+      "steps": [],
+      "listId": "mow7sbkmqbuq5t9psan",
+      "createdAt": "2026-05-11T05:45:26.794Z",
+      "dueDate": "2026-05-11",
+      "note": "경기77바 3260\n2026 / 05 / 08 ~ : 광주1번 (당일하루만)\n\n경기77바 2578\n2026 / 05 / 10 ~ : 8번\n\n으로 차량노선변경 요청드립니다",
+      "completedAt": "2026-05-11T05:46:49.515Z"
+    },
+    {
+      "id": "mp1splytttv3dkpahzd",
+      "title": "이클립스 SYNC UPDATE",
+      "completed": false,
+      "important": false,
+      "steps": [
+        {
+          "id": "mp1splyu5g1kugoatmg",
+          "title": "REFRESH / CLEANUP",
+          "completed": false
+        },
+        {
+          "id": "mp1splyut5l8nwgpg4k",
+          "title": "SYNCHRONIZE WITH REPOSITORY",
+          "completed": false
+        }
+      ],
+      "listId": "mow7py4107hhh2cvp9is",
+      "createdAt": "2026-05-11T22:50:58.806Z",
+      "dueDate": "2026-05-13",
+      "recur": {
+        "type": "weekday",
+        "weekdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "note": "\n"
+    },
+    {
+      "id": "mp1spmflvfx5eisssjf",
+      "title": "PC자산 관리 등록 안내 전화 (오늘 일정)",
+      "completed": false,
+      "important": false,
+      "steps": [],
+      "listId": "mow70vom0e5ga6to1zxs",
+      "createdAt": "2026-05-11T22:50:59.409Z",
+      "sourceFile": "Daily Notes/2026-05-12.md",
+      "sourceLine": 1
+    },
+    {
+      "id": "mp1spmfv50ggf3knlfa",
+      "title": "NOVA DTG - 데이터 업로드 테스트 (NOVA DTG)",
+      "completed": false,
+      "important": false,
+      "steps": [],
+      "listId": "mow70vom0e5ga6to1zxs",
+      "createdAt": "2026-05-11T22:50:59.419Z",
+      "sourceFile": "Daily Notes/2026-05-12.md",
+      "sourceLine": 2
+    },
+    {
+      "id": "mp1spmgbvv94lhs59kl",
+      "title": "원격서버 용량 및 프로그램 가동 확인 (출근 후 확인)",
+      "completed": true,
+      "important": false,
+      "steps": [],
+      "listId": "mow70vom0e5ga6to1zxs",
+      "createdAt": "2026-05-11T22:50:59.435Z",
+      "sourceFile": "Daily Notes/2026-05-12.md",
+      "sourceLine": 4,
+      "completedAt": "2026-05-11T22:55:49.791Z"
+    },
+    {
+      "id": "mp1spmgs63qwldvigal",
+      "title": "오전 데이터 업로드 (오전 업무)",
+      "completed": true,
+      "important": false,
+      "steps": [],
+      "listId": "mow70vom0e5ga6to1zxs",
+      "createdAt": "2026-05-11T22:50:59.452Z",
+      "sourceFile": "Daily Notes/2026-05-12.md",
+      "sourceLine": 5,
+      "completedAt": "2026-05-12T01:59:56.174Z"
+    },
+    {
+      "id": "mp1sto0ed7j9ma8a88l",
+      "title": "조영에 전화해서 3서버 데이터수집기 안도는 현상 문의",
+      "completed": true,
+      "important": false,
+      "steps": [],
+      "listId": "mow7s07um0fsicix9ui",
+      "createdAt": "2026-05-11T22:54:08.078Z",
+      "dueDate": "2026-05-12",
+      "completedAt": "2026-05-12T00:41:22.103Z"
+    },
+    {
+      "id": "mp1svu0p6bmz7rxva0d",
+      "title": "원격서버 용량 및 프로그램 가동 확인",
+      "completed": false,
+      "important": false,
+      "steps": [
+        {
+          "id": "mp1svu0p07sy3fn6b02b",
+          "title": "121.161.182.130 1본부, 6본부",
+          "completed": false
+        },
+        {
+          "id": "mp1svu0pesusqrdeqy",
+          "title": "121.161.182.131 2본부, 5본부",
+          "completed": false
+        },
+        {
+          "id": "mp1svu0pcipeujok3x",
+          "title": "121.161.182.132 시외본부",
+          "completed": false
+        },
+        {
+          "id": "mp1svu0pisdkmdkfwto",
+          "title": "121.161.182.133 3본부",
+          "completed": false
+        },
+        {
+          "id": "mp1svu0p1rrhyuhj613",
+          "title": "221.146.5.54 ETAS 경기,대원 업로드",
+          "completed": false
+        },
+        {
+          "id": "mp1svu0pbgd64w86q",
+          "title": "221.146.5.55 SPRING 프로젝트",
+          "completed": false
+        },
+        {
+          "id": "mp1svu0pgdtrsrtto5",
+          "title": "221.146.5.73 OD 데이터",
+          "completed": false
+        }
+      ],
+      "listId": "mow7py4107hhh2cvp9is",
+      "createdAt": "2026-05-11T22:55:49.177Z",
+      "dueDate": "2026-05-13",
+      "recur": {
+        "type": "weekday",
+        "weekdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "mp1u28km9sh54qkzfy",
+      "title": "202605-00183",
+      "completed": true,
+      "important": false,
+      "steps": [],
+      "listId": "mow7sldhiu1k8prdtqh",
+      "createdAt": "2026-05-11T23:28:47.590Z",
+      "dueDate": "2026-05-12",
+      "note": "3본부 사고관리 삭제를 요청합니다.\n\n조사중\t2026-05-08\t경기74아3360\t1600510\t최규상\n조사중\t2026-04-27\t경기74아2994\t2502619\t김도헌\n조사중\t2026-04-25\t경기74사1042\t2401340\t박성규\n조사중\t2026-04-20\t경기74아3324\t2501930\t최명철\n조사중\t2026-04-17\t경기74사1121\t2200833\t김태수\n조사중\t2026-04-17\t서울75사1503\t2200325\t이용성\n\n감사합니다.\n수고하세요",
+      "completedAt": "2026-05-11T23:31:11.690Z"
+    },
+    {
+      "id": "mp1wnt6mhbp1sbx5ept",
+      "title": "202605-00187",
+      "completed": true,
+      "important": false,
+      "steps": [],
+      "listId": "mow7sbkmqbuq5t9psan",
+      "createdAt": "2026-05-12T00:41:33.310Z",
+      "dueDate": "2026-05-12",
+      "note": "경기72바1637\n경기74아3411\n경기74아3412\n경기74아3863\n경기74아3864\n경기76아4807\n경기77바1127\n경기77바8433\n경기77사3547\n",
+      "completedAt": "2026-05-12T00:44:52.768Z"
+    },
+    {
+      "id": "mp1ws7xytsoykkxwiuc",
+      "title": "202605-00188",
+      "completed": true,
+      "important": false,
+      "steps": [],
+      "listId": "mow7sldhiu1k8prdtqh",
+      "createdAt": "2026-05-12T00:44:59.062Z",
+      "dueDate": "2026-05-12",
+      "note": "2026년 4월 30일\n\n경기74아1338호 이기창 승무사원 사고보고서 삭제 요청합니다\n",
+      "completedAt": "2026-05-12T00:45:32.958Z"
+    },
+    {
+      "id": "mp1xzsdd9uw2c940idm",
+      "title": "옵시디언 캘린더 개발",
+      "completed": false,
+      "important": false,
+      "steps": [
+        {
+          "id": "mp1y050zh222rqjqxup",
+          "title": "CLI 시작 명령어",
+          "completed": false
+        },
+        {
+          "id": "mp1y091a717u594bizn",
+          "title": "cd \"C:\\Users\\user\\Documents\\Obsidian Vault\"",
+          "completed": false
+        },
+        {
+          "id": "mp1y1h0h2k89dhss7pa",
+          "title": "claude",
+          "completed": false
+        }
+      ],
+      "listId": "mow7veiz8lstwf2seq4",
+      "createdAt": "2026-05-12T01:18:51.745Z",
+      "note": "🔥 실용성 높은 것들\n1. 빠른 작업 추가 단축키\n\n옵시디언 어디서든 Ctrl+Shift+A\n작업 추가 팝업 바로 등장\n목록 선택 + 제목 입력 + Enter\n\n2. 작업 색상 레이블\n\n각 작업에 색상 점 설정\n빨강/노랑/초록/파랑/보라\n목록에서 색상으로 한눈에 구분\n우클릭 메뉴에 색상 선택 추가\n\n3. 작업 복사/붙여넣기\n\n우클릭 메뉴에 \"작업 복사\" 추가\n다른 목록에 붙여넣기\n단계/메모/반복 설정까지 복사\n\n\n📊 통계/리포트\n4. 통계 대시보드\n\n사이드바에 \"통계\" 메뉴 추가\n이번 주/월 완료 개수\n목록별 진행률 바\n연속 완료 스트릭 (🔥 5일 연속!)\n가장 많이 완료한 시간대\n\n5. 주간 리포트 MD 자동 생성\n\n매주 월요일 지난주 완료 작업 요약\n\"지난주 N개 완료\" 리포트 노트 생성\n\n\n🎨 UI/UX\n6. 작업 드래그로 순서 변경\n\n목록 내 작업을 드래그로 순서 변경\n다른 목록으로 드래그해서 이동\n\n7. 목록 테마 색상\n\n목록별 배경 컬러 테마\n헤더 색상 커스터마이징\n\n8. 포커스 모드\n\n작업 하나만 크게 보여주는 집중 모드\n포모도로 타이머 연동 (25분 타이머)\n\n\n🔗 연동\n9. 옵시디언 북마크 연동\n\n북마크된 노트를 작업으로 변환\n작업 완료시 북마크 해제\n\n10. 클립보드에서 빠른 추가\n\n클립보드 텍스트를 작업으로 바로 추가\nURL이면 자동으로 파일 첨부\n"
+    },
+    {
+      "id": "mp1ylkyc0cfkdebklrc",
+      "title": "202605-00190",
+      "completed": true,
+      "important": false,
+      "steps": [],
+      "listId": "mow7szsyc1hwaollpkr",
+      "createdAt": "2026-05-12T01:35:48.564Z",
+      "dueDate": "2026-05-12",
+      "note": "비상연락망 공란으로 되어있는 전화번호 및 팩스번호 기재요청건\n\n전화번호 070-4122-7031\n팩스번호 031-357-0260\n\n수고하세요",
+      "completedAt": "2026-05-12T01:36:46.073Z"
+    },
+    {
+      "id": "mp1zglgnrbl1la2phw",
+      "title": "오전 데이터 업로드",
+      "completed": false,
+      "important": false,
+      "steps": [
+        {
+          "id": "mp1zglgn53dyledhg4g",
+          "title": "1. EB 데이터",
+          "completed": false
+        },
+        {
+          "id": "mp1zglgnn0lcfkde6y9",
+          "title": "2. 스마트카드 승하차",
+          "completed": false
+        },
+        {
+          "id": "mp1zglgnarf39db801k",
+          "title": "3. OD 데이터",
+          "completed": false
+        }
+      ],
+      "listId": "mow7qhuw84i7q1ekasf",
+      "createdAt": "2026-05-12T01:59:55.559Z",
+      "dueDate": "2026-05-13",
+      "recur": {
+        "type": "weekday",
+        "weekdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "mp22genedygld49indb",
+      "title": "식수 데이터 실행",
+      "completed": true,
+      "important": false,
+      "steps": [],
+      "listId": "mow71hc0dlu7a173rvc",
+      "createdAt": "2026-05-12T03:23:45.578Z",
+      "dueDate": "2026-05-12",
+      "recur": {
+        "type": "custom",
+        "unit": "month",
+        "interval": 3,
+        "startDate": "2026-05-12"
+      },
+      "attachments": [
+        {
+          "name": "move.py",
+          "path": "todo-attachments/mp22genedygld49indb/move.py"
+        }
+      ],
+      "completedAt": "2026-05-12T03:24:34.073Z"
+    },
+    {
+      "id": "mp22hg3ett0n1rhk8hq",
+      "title": "식수 데이터 실행",
+      "completed": false,
+      "important": false,
+      "steps": [
+        {
+          "id": "mp22i423sl2pq4ce0nh",
+          "title": "100일치",
+          "completed": false
+        }
+      ],
+      "listId": "mow71hc0dlu7a173rvc",
+      "createdAt": "2026-05-12T03:24:34.106Z",
+      "dueDate": "2026-08-12",
+      "recur": {
+        "type": "custom",
+        "unit": "month",
+        "interval": 3,
+        "startDate": "2026-05-12"
+      }
+    },
+    {
+      "id": "mp22qhx4mc0ydfwvm4",
+      "title": "홍죽리2 산업단지 내에 인터넷 wifi 안됨",
+      "completed": false,
+      "important": false,
+      "steps": [],
+      "listId": "mow7s07um0fsicix9ui",
+      "createdAt": "2026-05-12T03:31:36.376Z"
+    }
+  ],
+  "groups": [
+    {
+      "id": "mov0qi4ooqkm0uhrssa",
+      "name": "KD 업무",
+      "collapsed": false,
+      "color": "#767676"
+    },
+    {
+      "id": "mov0qn14sil6rmdhgr",
+      "name": "ERP 전산요청",
+      "collapsed": false,
+      "color": "#e74856"
+    },
+    {
+      "id": "mov0qwb7y4b2div920k",
+      "name": "EMK ERP",
+      "collapsed": false,
+      "color": "#00b294"
+    },
+    {
+      "id": "mov0r0aq1fiuybcha7j",
+      "name": "신규개발건",
+      "collapsed": false,
+      "color": "#0078d4"
+    }
+  ]
+}

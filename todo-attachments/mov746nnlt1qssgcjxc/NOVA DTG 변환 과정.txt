@@ -1,0 +1,134 @@
+NOVA DTG 변환 과정
+
+221.146.5.87 /dtg 폴더 내에 파일들 다운로드 후 dtg_back 폴더로 이동 
+
+@echo off
+chcp 65001 >nul
+echo [시작] .processing 확장자 제거 중...
+echo.
+
+powershell -NoProfile -ExecutionPolicy Bypass -Command ^
+  "$folder = 'C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg';" ^
+  "$files = Get-ChildItem -Path $folder -Recurse -Filter '*.processing';" ^
+  "if ($files.Count -eq 0) { Write-Host '[결과] .processing 파일이 없습니다.'; exit }" ^
+  "$count = 0;" ^
+  "foreach ($f in $files) {" ^
+  "  $newName = $f.Name -replace '\.processing$', '';" ^
+  "  Rename-Item -Path $f.FullName -NewName $newName;" ^
+  "  Write-Host \"[변환] $($f.Name)\";" ^
+  "  $count++;" ^
+  "}" ^
+  "Write-Host \"`n[결과] 총 $count 개 파일 변환 완료.\""
+
+echo.
+pause
+
+CMD로 실행 
+
+
+그후에 for /f "delims=" %F in ('dir /b "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*"') do @for /f "tokens=2 delims=-" %A in ("%F") do @echo %A >> "%TEMP%\carnum.txt"
+
+sort /unique "%TEMP%\carnum.txt" > "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\차량\차번목록.txt" && del "%TEMP%\carnum.txt"
+
+위 두줄로 차량번호 추출 후 
+
+select NO_CAR,PKG_MHS_CODE.FNC_GET_1LVL_DEPTNM(DEPT_CD) HEAD_NM from car 
+where 1=1
+and no_car IN (
+'경기72바1832',
+'경기74아3749',
+'경기77바6000',
+'경기77바6024',
+'경기77바6025',
+'경기77바6027',
+'경기77바6028',
+'경기77바6035',
+'경기77바6036',
+'경기77바6038',
+'경기77바6041',
+'경기77바6042',
+'경기77바6043',
+'경기77바6044',
+'경기77바6045',
+'경기77바6048',
+'경기77바6053',
+'경기77바6054',
+'경기77바6055',
+'경기77바6505',
+'경기77바6515',
+'경기77바6525',
+'경기77바6538'
+)
+
+쿼리를 사용해서 본부를 찾은 후에 
+
+
+NO_CAR	HEAD_NM
+
+경기72바1832	시내5사업본부
+경기74아3749	남양주지역본부
+경기77바6000	시내2사업본부
+경기77바6024	시내2사업본부
+경기77바6025	하남지역본부
+경기77바6027	하남지역본부
+경기77바6028	시내5사업본부
+경기77바6035	시내5사업본부
+경기77바6036	시내5사업본부
+경기77바6038	시외사업본부
+경기77바6041	시외사업본부
+경기77바6042	시외사업본부
+경기77바6043	시내2사업본부
+경기77바6044	하남지역본부
+경기77바6045	시내3사업본부
+경기77바6048	남양주지역본부
+경기77바6053	시외사업본부
+경기77바6054	시외사업본부
+경기77바6055	시외사업본부
+경기77바6505	시외사업본부
+경기77바6515	시외사업본부
+경기77바6525	시내6사업본부
+경기77바6538	시내6사업본부
+
+
+이제 위 차량들을 C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg 안에 파일에서 찾아서 
+
+1본부, 6본부 : 121.161.182.130
+2본부, 5본부, 하남 : 121.161.182.131
+시외본부 : 121.161.182.132
+3본부,남양주 : 121.161.182.133
+
+별로 구분해서 121.161.182.130 폴더안에 시내1, 시내6 안에 포함된 차량들 파일을 분리되게 하고싶어
+
+
+위 같이 AI 에 넣어서 CMD 명령어를 추출함
+
+
+for /f "delims=" %F in ('dir /b "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6525*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6538*" 2^>nul') do move "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\%F" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\121.161.182.130\"
+
+for /f "delims=" %F in ('dir /b "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기72바1832*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6000*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6024*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6025*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6027*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6028*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6035*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6036*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6043*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6044*" 2^>nul') do move "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\%F" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\121.161.182.131\"
+
+for /f "delims=" %F in ('dir /b "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6038*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6310*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6041*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6042*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6053*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6054*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6055*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6505*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6515*" 2^>nul') do move "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\%F" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\121.161.182.132\"
+
+
+for /f "delims=" %F in ('dir /b "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기74아3749*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6045*" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\*경기77바6048*" 2^>nul') do move "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\dtg\%F" "C:\Users\user\Desktop\LEEKYUDONG\2.제작\NOVADTG\121.161.182.133\"
+
+
+그 후 각 서버의 D드라이브 tmp_gether 에 넣는다.
+
+변환이 완료된 후엔 D드라이브에 CDT_UPLOAD 에 넣기위해 Y DATA 폴더에서 파일을 추출한다.
+
+for %C in (경기77바6525 경기77바6538) do for /f "delims=" %F in ('forfiles /p "Y:\Data\%C" /d 0 /c "cmd /c echo @file" 2^>nul') do copy "Y:\Data\%C\%~F" "Y:\Data\121.161.182.130\"
+
+for %C in (경기72바1832 경기77바6000 경기77바6024 경기77바6025 경기77바6027 경기77바6028 경기77바6035 경기77바6036 경기77바6043 경기77바6044) do for /f "delims=" %F in ('forfiles /p "Y:\Data\%C" /d 0 /c "cmd /c echo @file" 2^>nul') do copy "Y:\Data\%C\%~F" "Y:\Data\121.161.182.131\"
+
+for %C in (경기77바6038 경기77바6041 경기77바6042 경기77바6053 경기77바6054 경기77바6055 경기77바6505 경기77바6515) do for /f "delims=" %F in ('forfiles /p "Y:\Data\%C" /d 0 /c "cmd /c echo @file" 2^>nul') do copy "Y:\Data\%C\%~F" "Y:\Data\121.161.182.132\"
+
+
+for %C in (경기74아3749 경기77바6045 경기77바6048) do for /f "delims=" %F in ('forfiles /p "Y:\Data\%C" /d 0 /c "cmd /c echo @file" 2^>nul') do copy "Y:\Data\%C\%~F" "Y:\Data\121.161.182.133\"
+
+위 명령어를 전부 입력하여 복사후에
+
+Y/DATA 폴더 내에 폴더들에서 CDT_UPLOAD 잘라내기로 붙여넣는다.
+
+그후에 C:\DTG\DTG_ORACLE 폴더내에 testcubrid 프로그램 실행하면 끝.
+
